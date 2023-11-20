@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form></title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="title">FreeCodeCamp Survey Form</h1>
+<p id='description'>Thanks for taking this survey</p>
+<form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+  <fieldset>
+    <label for="name" id="name-label">Name<input id="name" type="text" required placeholder="name">
+    </label>
+    <label for="email" id="email-label">Email<input id="email" type="email" required placeholder="email">
+    </label>
+    <label for="number" id="number-label">Number<input id="number" type="number" placeholder="number" min="10" max="12">
+    </label>
+    <select id="dropdown">
+      <option value=" ">select one option</option>
+      <option value="1">freecode camp</option>
+    </fieldset>
+    <fieldset>
+        <label for="inline"><input type="radio" name="radio-buttons" class="inline" value="1">1st option</label>
+        <label for="inline"><input type="radio" name="radio-buttons" class="inline" value="2">2nd option</label>
+    </fieldset>
+    <fieldset>
+      <label for="1"><input type="checkbox" value="1"/>1st</label>
+      <label for="2"><input type="checkbox" value="2"/>2nd</label>
+      <label for="3"><input type="checkbox" value="3"/>3rd</label>
+      <label for="4"><input type="checkbox" value="4"/>4th</label>
+    </fieldset>
+    <fieldset>
+      <label for="textarea">
+        <textarea id="textarea" rows="3" cols="30" placeholder="comments"></textarea>
+      </label>
+      </fieldset>
+      <input type="submit" name="Submit" id="submit">
+  </form>
+  </body>
+  </html>

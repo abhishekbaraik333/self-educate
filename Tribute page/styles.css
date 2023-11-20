@@ -1,0 +1,25 @@
+#image{
+    display:block;
+    max-width:100%;
+    height:auto;
+    align-items:center;
+  }
+  h1{
+    background-color: blanchedalmond;
+    text-align: center;
+  }
+  #underline{
+    text-decoration: underline;
+  }
+  p{
+  text-align: center;
+  }
+  fieldset{
+    border: none;
+    background-color: antiquewhite;
+  }
+  li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+
+  }
